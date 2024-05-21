@@ -1,6 +1,6 @@
 body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 
@@ -30,4 +30,25 @@ nav ul{
 nav ul li{
     display: inline;
     margin: 0 10px;
+}   
+
+article{
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}   
+
+article section{
+    margin: 10px 0;
+}   
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }   
