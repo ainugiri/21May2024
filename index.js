@@ -25,3 +25,16 @@ function mobilenumberValidate(mobileNumber) {
 // code = "function validateUsername(username) {\n  if(username.length <10)\n    return false; \n  return true;\n}\n\nfunction validate (username, password) {\n  if(!validateUsername(username))\n    return false;\n  if(password.length < 8)\n    return false;\n  return true;\n}"
 // language = "javascript"
 // version = 3
+
+
+function calculateSumOfArray(arr) {
+  return arr.reduce((a, b) => a + b, 0);
+} 
+
+function calculateExperience(experience) {
+  return experience * 12;
+} 
+
+function calculateAge(birthYear) {
+  return 2022 - birthYear;
+}
