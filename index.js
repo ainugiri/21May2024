@@ -31,10 +31,6 @@ function calculateSumOfArray(arr) {
   return arr.reduce((a, b) => a + b, 0);
 } 
 
-function calculateExperience(experience) {
-  return experience * 12;
-} 
-
 function calculateAge(birthYear) {
   return 2022 - birthYear;
 }
