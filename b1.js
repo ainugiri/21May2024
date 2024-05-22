@@ -5,3 +5,8 @@ function countClick() {
     console.log(count);
   }
 }   
+
+function printHello() {
+  console.log('Hello');
+}
+
