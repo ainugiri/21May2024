@@ -27,6 +27,13 @@ nav ul{
     text-align: center;
 }   
 
+
+p{
+    margin: 0;
+    color: #333;
+    
+}
+
 nav ul li{
     display: inline;
     margin: 0 10px;
@@ -52,9 +59,3 @@ footer{
     bottom: 0;
     width: 100%;
 }   
-
-p{
-    margin: 0;
-    color: #333;
-    
-}
